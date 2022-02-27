@@ -1,0 +1,246 @@
+header{
+    background: linear-gradient(#95bddc, #142f48);
+    height: 350px;
+    margin-top: 0;
+    
+}
+
+nav > img.logo{
+    width: 20%;
+    display: inline;
+    position: absolute;
+    top: -5%;
+
+    
+}
+body{
+    margin: 0;
+    background-color: #CCD1E4;
+}
+div.nav-bar > a{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #012e67;
+    /* position: absolute;
+    left: 80%;
+    top: 20%; */
+    
+    font-size: larger;
+    
+}
+
+div.nav-bar{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+div.nav-bar > a:hover{
+    color: #3db8ff;
+    background-color: #012e67;
+}
+
+
+
+.search-box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d5deeb;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.search-box:hover > .search-txt{
+    width: 350px;
+    padding: 0 6px;
+background-color: #d5deeb;
+}
+
+.search-box:hover > .search-btn{
+    background-color: #2f3640;
+}
+
+.search-btn{
+    color: #3db8ff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+    
+}
+
+.search-txt{
+   border: none; 
+   background-color: #d5deeb;
+   outline: none;
+   float: left;
+   padding: 0;
+   color: black;
+   font-size: 16px;
+   transition: 0.4s;
+   line-height: 40px;
+   width: 0px;
+
+}
+
+
+
+h1.punch{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1E3163;
+    
+}
+
+nav.real{
+    height: 35px;
+    background-color: #1E3163;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+nav.real > a{
+    position: static;
+}
+a.nav{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+a.nav:hover{
+    color: #3db8ff;
+    
+}
+
+h1.head-main{
+    font-family: sans-serif;
+}
+
+
+hr.heading{
+    border: solid;
+    width: 100px;
+}
+
+
+.image{
+    position: relative;
+    width: 100%;
+
+}
+
+div > img.iit-img{
+    border: solid;
+}
+
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    right: 25%;
+    width: 50%;
+    height: 99%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s;
+
+}
+
+.image__overlay:hover{
+    opacity: 1;
+}
+
+.image__overlay--blur{
+    backdrop-filter: blur(5px);
+}
+
+.image__title{
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+footer{
+    background-color: #19398b;
+}
+
+.icon_media{
+    color: white;
+}
+
+
+/* iitmain.html */
+
+div.container{
+    margin: 50px;
+}
+img.logo-iit{
+    border: solid;
+    border-color: #3db8ff;
+}
+
+a.logo-iit{
+    margin: 20px;
+}
+a > img.logo{
+    width: 20%;
+    display: inline;
+    position: absolute;
+    top: -5%;
+}
+
+
+
+
+
+div.overlay1{
+    position: absolute;
+    /* top: 0; */
+    left: 94px;
+    top: 491px;
+    width: 235px;
+    height: 139px;
+    background: rgba(18, 102, 211, 0.6);
+    color: #ffff;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s;
+
+}
+
+div.overlay1:hover{
+    opacity: 1;
+}
+
+div.overlay1--blur{
+    backdrop-filter: blur(5px);
+}
+
+
+a.logo-iit{
+    text-decoration: none;
+}
